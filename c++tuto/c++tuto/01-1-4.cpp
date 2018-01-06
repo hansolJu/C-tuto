@@ -1,5 +1,4 @@
 #include<iostream>
-
 //int main() {
 //	int input = 0;
 //	while (1) {
