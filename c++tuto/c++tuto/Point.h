@@ -4,7 +4,8 @@
 class Point
 {
 public:
-	bool InitMembers(int xpos, int ypos);
+	Point(const int &xpos, const int &ypos);
+	//bool InitMembers(int xpos, int ypos);
 	int GetX() const;
 	int GetY() const;
 	bool SetX(int xpos);
