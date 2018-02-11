@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BankAccountManageProject1", "BankAccountManageProject1\BankAccountManageProject1.vcxproj", "{A3900A5E-3075-4356-813E-AE5EE7851177}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3900A5E-3075-4356-813E-AE5EE7851177}.Debug|x64.ActiveCfg = Debug|x64
+		{A3900A5E-3075-4356-813E-AE5EE7851177}.Debug|x64.Build.0 = Debug|x64
+		{A3900A5E-3075-4356-813E-AE5EE7851177}.Debug|x86.ActiveCfg = Debug|Win32
+		{A3900A5E-3075-4356-813E-AE5EE7851177}.Debug|x86.Build.0 = Debug|Win32
+		{A3900A5E-3075-4356-813E-AE5EE7851177}.Release|x64.ActiveCfg = Release|x64
+		{A3900A5E-3075-4356-813E-AE5EE7851177}.Release|x64.Build.0 = Release|x64
+		{A3900A5E-3075-4356-813E-AE5EE7851177}.Release|x86.ActiveCfg = Release|Win32
+		{A3900A5E-3075-4356-813E-AE5EE7851177}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DB6845F-4CFA-4F75-9D70-40956ED69374}
+	EndGlobalSection
+EndGlobal
