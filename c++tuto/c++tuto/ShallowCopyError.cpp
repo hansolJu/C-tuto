@@ -5,10 +5,17 @@ using namespace std;
 class Person
 {
 public:
-	Person(const char * myname, int myage) {
+	Person(const char * myname, int myage) 
+		:age(myage)
+	{
 		name = new char[strlen(myname) + 1];
 		strcpy(name, myname);
-		age = myage;
+	}
+	Person(const Person & copy)
+		:age(copy.age) 
+	{
+		name = new char[strlen(copy.name) + 1];
+		strcpy(name, copy.name);
 	}
 	void ShowPersonInfo()const {
 		cout << "ÀÌ¸§: " << name << endl;
